@@ -19,7 +19,7 @@ public class ShootScript : MonoBehaviour
     {
         isCanShoot = true;
         instance = this;
-        bulletAmount = 2;
+        bulletAmount = 0;
         UpdateShoot();
     }
 

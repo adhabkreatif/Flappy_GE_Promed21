@@ -32,6 +32,6 @@ public class FlyScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        // GameManager.gameManager.GameOver();
+        GameManager.gameManager.GameOver();
     }
 }
