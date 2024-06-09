@@ -43,7 +43,6 @@ public class ShootScript : MonoBehaviour
         else if (isCanShoot == false)
         {
             delayShoot += Time.deltaTime;
-            Debug.Log(delayShoot);
         }
 
         if (delayShoot > 0.8f)
